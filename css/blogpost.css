@@ -1,0 +1,44 @@
+.post-img {
+    height: 700px;
+    overflow: hidden;
+    fill: aliceblue;
+}
+
+.post-img img {
+    width: 100%;
+    /* opacity: .9; */
+
+
+}
+
+.blog-post-content {
+    margin-top: 24px;
+}
+
+.blog-post-content h1 {
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.blog-post-content p {
+    /* or */
+    line-height: 29px;
+}
+
+.blogpost-meta {
+    display: flex;
+    font-style: italic;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.author-details {
+    color: var(--text-color);
+}
+
+.socials {
+    color: var(--text-color);
+    padding-right: 30px;
+    align-self: center;
+}

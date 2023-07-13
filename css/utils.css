@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --main-bg-color: rgb(109, 106, 106);
+    --font1: 'Work Sans', sans-serif;
+    --font2: 'Poppins', sans-serif;
+    --text-color:rgb(119, 112, 112);
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+
+
+.max-width-1 {
+    max-width: 80vw;
+    /*vw helps us to make the width stay in orde when theviewortwidth getsmanaged*/
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.remove-default-a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    padding: 4px 9px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    font-family: var(--font1);
+    background-color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+    color: rgb(131, 126, 126);
+}
+
+.btn:hover {
+    background-color: var(--main-bg-color);
+    color: rgb(255, 255, 255);
+}
+
+
+.form-input {
+    padding: 3px 0px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    margin: 0px 4px;
+    font-family: var(--font1);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-input:hover {
+    background-color: var(--main-bg-color);
+    color: rgb(255, 255, 255);
+}
+.blogpost-span{
+    font-weight: bolder;
+}

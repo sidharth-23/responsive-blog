@@ -1,0 +1,82 @@
+/* .contact-main{
+   background-color: lightblue;
+    margin-top: 40px;
+} */
+.contact-heading{
+font-size: 40px;
+margin-top: 20px;
+color: rgb(129, 118, 118);
+
+}
+.contact-us {
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    /* background-color: lightblue; */
+    margin-top: 50px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.contact-main-left{
+    width: 50%;
+}
+.contact-main-right{
+    /* background-color: blue; */
+    width: 50%;
+}
+.contact-main-right img{
+    height: 330px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+.form-input1 {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    margin: -7px 37px;
+    font-family: var(--font1);
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    width: 29vw;
+}
+
+.form-input1:hover {
+    background-color: var(--main-bg-color);
+    color: rgb(255, 255, 255);
+}
+
+.btn1 {
+    padding: 4px 9px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    font-family: var(--font1);
+    background-color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+    color: rgb(112, 106, 106);
+}
+
+.btn1:hover {
+    background-color: var(--main-bg-color);
+    color: rgb(255, 255, 255);
+}
+
+/* .contact-us textarea {
+    width: 29vw;
+    height: 121px;
+    ;
+} */
+/* .contact-us button{
+    width: 30vw;
+  
+} */
+.footer{
+   margin-top: 100px;
+}
